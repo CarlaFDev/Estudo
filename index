@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg  container container-fluid "> <!--INICIO NAVBAR-->
+      <a class="navbar-brand" href="#"><img src="img/logo2.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon text-light"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav ml-auto mr-auto ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Biografia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mídia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+
+        </ul>
+        <a href="#" class="myButton">Contato</a>
+      
+      </div>
+    </nav> <!--FIM NAVBAR -->
+      <div class="slider row">
+        <div class="container container-fluid">
+          <div class="slider-content">
+            <h1>Mussum Ipsum</h1>
+            <p>Bbota uma pinga aí cumpadi! <br>
+              Delegadis gente finis, bibendum <br>egestas augue arcu ut est. </p>
+          </div>
+          </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="container container-fluid">
+      <div class="bio row">
+        <div class="col-md-6 col-sm-12 bio-img">
+          <img src="img/bio.png">
+        </div>
+        <div class="col-md-6 col-sm-12 bio-text">
+          <h2>Biografia</h2>
+          <p>Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+             Quem manda na minha terra sou euzis! Diuretics paradis num copo é motivis de denguis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+
+            Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Si u mundo tá muito paradis?
+             Toma um mé que o mundo vai girarzis! Sapien in monti palavris qui num significa nadis i pareci latim. Nec orci ornare consequat.
+              Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+            
+            Delegadis gente finis, bibendum egestas augue arcu ut est. Quem num gosta di mim que vai caçá sua turmis!
+             Aenean aliquam molestie leo, vitae iaculis nisl. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class=" bg-cto">
+      <div class="container container-fluid">
+      <div class="box-cto row">
+        <h3 class="ml-auto mr-auto">Agende agora sua data especial</h3>
+        <p class="text-white">
+          Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
+          Quem num gosta di mim que vai caçá sua turmis! Quem num gosta di mé, boa gentis num é. Per aumento de cachacis, eu reclamis.
+        </p>
+        <a href="#" class="myButton mr-auto ml-auto">Contato</a>
+      </div>
+    </div>
+    </section>
+
+    <section class="container container-fluid">
+      <div class="show-box">
+      <div class="row">
+
+        <div class="col-md-4 col-sm-12 show-item">
+          <span class="material-icons md-36">
+            music_note
+            </span>
+          <h3>Voz e Violão</h3>
+          <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
+            </p>
+        </div>
+
+        <div class="col-md-4 col-sm-12 show-item">
+          <span class="material-icons md-36">
+            emoji_people
+            </span>
+          <h3>Eventos Corporativos</h3>
+          <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
+            </p>
+        </div>
+
+        <div class="col-md-4 col-sm-12 show-item">
+          <span class="material-icons md-36">
+            local_bar
+            </span>
+          <h3>Aniversários e Festas particulares</h3>
+          <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
+           </p>
+        </div>
+        
+
+      </div>
+      </div>
+   </section>
+
+    <section class="container container-fluid midia-foto"><!-- FOTOS-->
+        <h2>Fotos e Vídeos</h2>
+              <div class="gallery-container">
+                <div class="gallery-item" data-index="1">
+                    <img src="img/gallery1.png">
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="img/gallery2.png">
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <img src="img/gallery3.png">
+                </div>
+                <div class="gallery-item" data-index="4">
+                    <img src="img/gallery4.jpg">
+                </div>
+              
+                <div class="gallery-item" data-index="5">
+                    <img src="img/gallery6.png">
+                </div>
+                <div class="gallery-item" data-index="6">
+                  <img src="img/gallery7.png">
+            </div>
+          
+             </div>
+             
+    </section>
+
+  <section class="container">
+    <!--Carousel Wrapper--> 
+<div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+    <li data-target="#video-carousel-example" data-slide-to="1"></li>
+    <li data-target="#video-carousel-example" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+              <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/P7AjudklFG0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/uiK5cX7jO7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+                   <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/me0hgynBWiU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--Carousel Wrapper-->
+
+    </section>
+
+    <section class="testimonials"> <!--TESTIMONIALS-->
+      <div class="container container-fluid">
+        <h2 class="depoimentos">What they’ve said</h2>
+        <div class="testimonials-box row">
+          <div class="testi-item col-md-4 col-sm-12">
+            <img src="img/avatar-1.png" alt="" class="mr-auto ml-auto">
+            <h4>Anisha Li</h4>
+            <p>“Manage has supercharged our team’s workflow. The ability to maintain 
+              visibility on larger milestones at all times keeps everyone motivated.”</p>
+          </div>
+          <div class="testi-item col-md-4 col-sm-12">
+            <img src="img/avatar-2.png" alt="" class="mr-auto ml-auto">
+            <h4>Ali Bravo</h4>
+            <p>  “We have been able to cancel so many other subscriptions since using 
+              Manage. There is no more cross-channel confusion and everyone is much 
+              more focused.”</p>
+          </div>
+          <div class="testi-item col-md-4 col-sm-12">
+            <img src="img/avatar-3.png" alt="" class="mr-auto ml-auto">
+            <h4>Richard Watts</h4>
+            <p>“Manage allows us to provide structure and process. It keeps us organized 
+              and focused. I can’t stop recommending them to everyone I talk to!”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!--FIM-->
+
+      <section class="contato">
+        <div class="container container-fluid">
+          <div class="row">
+          <div class="col-md-6 col-sm-12 form">
+            <h2 class="mr-auto ml-auto">Entre agora em contato <br>conosco</h2>
+           
+              <form action="#" class="form-contact" method="post" tabindex="1">
+                <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+                <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+                <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />
+                <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+                <button type="submit" class="form-contact-button">Enviar</button>
+              </form>
+         
+            </div>
+         
+
+          <div class="col-md-6 col-sm-12 mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14691.6953716693!2d-43.25728666986549!3d-22.9898278095128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd427adbbdaeb%3A0x4cf95af6dc0096b9!2sRocinha%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1591815559013!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+        </div>
+      </section>
+    
+
+
+  </main>
+  </body>
+  <script>
+    $(".tab").click(function(){
+    $(".tabs-bar").find(".tab-active").removeClass("tab-active");
+    $(".content-container").children().hide();
+    $(this).addClass("tab-active");
+    $(".content-" + this.id).show();
+})
+
+  </script>
+
+<script>
+  const galleryItem = document.getElementsByClassName("gallery-item");
+const lightBoxContainer = document.createElement("div");
+const lightBoxContent = document.createElement("div");
+const lightBoxImg = document.createElement("img");
+const lightBoxPrev = document.createElement("div");
+const lightBoxNext = document.createElement("div");
+
+lightBoxContainer.classList.add("lightbox");
+lightBoxContent.classList.add("lightbox-content");
+lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
+lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
+
+lightBoxContainer.appendChild(lightBoxContent);
+lightBoxContent.appendChild(lightBoxImg);
+lightBoxContent.appendChild(lightBoxPrev);
+lightBoxContent.appendChild(lightBoxNext);
+
+document.body.appendChild(lightBoxContainer);
+
+let index = 1;
+
+function showLightBox(n) {
+    if (n > galleryItem.length) {
+        index = 1;
+    } else if (n < 1) {
+        index = galleryItem.length;
+    }
+    let imageLocation = galleryItem[index-1].children[0].getAttribute("src");
+    lightBoxImg.setAttribute("src", imageLocation);
+}
+
+function currentImage() {
+    lightBoxContainer.style.display = "block";
+
+    let imageIndex = parseInt(this.getAttribute("data-index"));
+    showLightBox(index = imageIndex);
+}
+for (let i = 0; i < galleryItem.length; i++) {
+    galleryItem[i].addEventListener("click", currentImage);
+}
+
+function slideImage(n) {
+    showLightBox(index += n);
+}
+function prevImage() {
+    slideImage(-1);
+}
+function nextImage() {
+    slideImage(1);
+}
+lightBoxPrev.addEventListener("click", prevImage);
+lightBoxNext.addEventListener("click", nextImage);
+
+function closeLightBox() {
+    if (this === event.target) {
+        lightBoxContainer.style.display = "none";
+    }
+}
+lightBoxContainer.addEventListener("click", closeLightBox);
+</script>
+  
+<script> 
+
+  var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      loop: true,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+});
+var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+});
+
+var initPlayer = function(element) {
+  var player = element.querySelector('.video-iframe');
+  var button = element.querySelector('.video-play');
+  var ytplayer = new YT.Player(player, {
+    playerVars: {
+      'autoplay': 0,
+      'modestbranding': 1,
+      'controls': 0,
+      'rel': 0,
+    },
+    videoId: element.dataset.id
+  });
+
+  button.addEventListener('click', function() {
+    switch (ytplayer.getPlayerState()) {
+      case 1:
+        ytplayer.stopVideo();
+        break;
+      default:
+        ytplayer.playVideo();
+        break;
+    }
+  })
+}
+
+galleryTop.on("slideChange", function() {
+      var isVideo = galleryTop.slides[galleryTop.previousIndex].querySelector('.video-container');
+    if (isVideo) {
+      YT.get(isVideo.querySelector('iframe').id).stopVideo()
+    }
+});
+
+window.onYouTubePlayerAPIReady = function() {
+  var container = document.querySelectorAll('.video-container');
+  for (var i = 0; i < container.length; i++) {
+    initPlayer(container[i])
+  }
+}
+</script>
+
+
+<script>
+  var form = $('#contact'),
+    submit = form.find('[name="submit"]');
+
+form.on('submit', function(e) {
+  e.preventDefault();
+  
+  // avoid spamming buttons
+  if (submit.attr('value') !== 'Send')
+    return;
+  
+  var valid = true;
+  form.find('input, textarea').removeClass('invalid').each(function() {
+    if (!this.value) {
+      $(this).addClass('invalid');
+      valid = false;
+    }
+  });
+  
+  if (!valid) {
+    form.animate({left: '-3em'},  50)
+        .animate({left:  '3em'}, 100)
+        .animate({left:    '0'},  50);
+  } else {
+    submit.attr('value', 'Sending...')
+          .css({boxShadow: '0 0 200em 200em rgba(225, 225, 225, 0.6)',
+                backgroundColor: '#ccc'});
+    // simulate AJAX response
+    setTimeout(function() {
+      // step 1: slide labels and inputs
+      // when AJAX responds with success
+      // no animation for AJAX failure yet
+      form.find('label')
+          .animate({left: '100%'}, 500)
+          .animate({opacity: '0'}, 500);
+    }, 1000);
+    setTimeout(function() {
+      // step 2: show thank you message after step 1
+      submit.attr('value', 'Thank you :)')
+            .css({boxShadow: 'none'});
+    }, 2000);
+    setTimeout(function() {
+      // step 3: reset
+      form.find('input, textarea').val('');
+      form.find('label')
+          .css({left: '0'})
+          .animate({opacity: '1'}, 500);
+      submit.attr('value', 'Send')
+            .css({backgroundColor: ''});
+    }, 4000);
+  }
+});
+</script>
+  </html>
