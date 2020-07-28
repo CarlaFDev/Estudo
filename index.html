@@ -9,7 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
@@ -17,8 +17,9 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg  container container-fluid "> <!--INICIO NAVBAR-->
-      <a class="navbar-brand" href="#"><img src="img/logo2.png"></a>
+    <nav class="navbar navbar-expand-lg bg-white fixed-top"> <!--INICIO NAVBAR-->
+      <div class="container container-fluid">
+      <a class="navbar-brand" href="#">RODRIGO SILVA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon text-light"></span>
       </button>
@@ -26,35 +27,37 @@
       <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <ul class="navbar-nav ml-auto mr-auto ">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+            <a class="nav-link" href="#home">HOME <span class="sr-only">(página atual)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Biografia</a>
+            <a class="nav-link" href="#biografia">BIOGRAFIA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Shows</a>
+            <a class="nav-link" href="#shows">SHOWS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mídia</a>
+            <a class="nav-link" href="#midia">MÍDIA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Depoimentos</a>
+            <a class="nav-link" href="#clientes">CLIENTES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="#contato">CONTATO</a>
           </li>
 
         </ul>
-        <a href="#" class="myButton">Contato</a>
+        <a href="#" class="Btn">Contato</a>
       
       </div>
-    </nav> <!--FIM NAVBAR -->
-      <div class="slider row">
+    </div>
+    </nav>
+
+      <div class="slider row"  id="home">
         <div class="container container-fluid">
           <div class="slider-content">
-            <h1>Mussum Ipsum</h1>
+            <h1>MUSSUM IPSUM</h1>
             <p>Bbota uma pinga aí cumpadi! <br>
-              Delegadis gente finis, bibendum <br>egestas augue arcu ut est. </p>
+              Delegadis gente finis, bibendum begestas augue arcu ut est. </p>
           </div>
           </div>
       </div>
@@ -62,13 +65,14 @@
   </header>
 
   <main>
-    <section class="container container-fluid">
+    <section class="container container-fluid" id="biografia">
       <div class="bio row">
         <div class="col-md-6 col-sm-12 bio-img">
           <img src="img/bio.png">
         </div>
+
         <div class="col-md-6 col-sm-12 bio-text">
-          <h2>Biografia</h2>
+          <h2>BIOGRAFIA</h2>
           <p>Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
              Quem manda na minha terra sou euzis! Diuretics paradis num copo é motivis de denguis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
 
@@ -79,94 +83,88 @@
             Delegadis gente finis, bibendum egestas augue arcu ut est. Quem num gosta di mim que vai caçá sua turmis!
              Aenean aliquam molestie leo, vitae iaculis nisl. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
         </div>
-      </div>
+       </div>
     </section>
 
-    <section class=" bg-cto">
+    <section class="bg-cto">
       <div class="container container-fluid">
-      <div class="box-cto row">
-        <h3 class="ml-auto mr-auto">Agende agora sua data especial</h3>
-        <p class="text-white">
-          Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
-          Quem num gosta di mim que vai caçá sua turmis! Quem num gosta di mé, boa gentis num é. Per aumento de cachacis, eu reclamis.
-        </p>
-        <a href="#" class="myButton mr-auto ml-auto">Contato</a>
+        <div class="box-cto">
+          <h3 class="ml-auto mr-auto">AGENDE AGORA SUA DATA</h3>
+          <p class="text-white">
+            Mussum Ipsum, cacilds vidis litro abertis.
+          </p>
+          <a href="#" class="Btn">Contato</a>
+        </div>
       </div>
-    </div>
     </section>
 
-    <section class="container container-fluid">
+    <section class="container container-fluid" id="shows">
       <div class="show-box">
-      <div class="row">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 show-item">
+              <span class="material-icons md-36">
+                music_note
+                </span>
+              <h3>VOZ E VIOLÃO</h3>
+              <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
+                </p>
+          </div>
 
         <div class="col-md-4 col-sm-12 show-item">
-          <span class="material-icons md-36">
-            music_note
-            </span>
-          <h3>Voz e Violão</h3>
-          <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
+            <span class="material-icons md-36">
+              emoji_people
+              </span>
+            <h3>EVENTOS CORPORATIVOS</h3>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
+              </p>
+        </div>
+
+        <div class="col-md-4 col-sm-12 show-item">
+            <span class="material-icons md-36">
+              local_bar
+              </span>
+            <h3>FESTAS PARTICULARES</h3>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
             </p>
         </div>
-
-        <div class="col-md-4 col-sm-12 show-item">
-          <span class="material-icons md-36">
-            emoji_people
-            </span>
-          <h3>Eventos Corporativos</h3>
-          <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
-            </p>
-        </div>
-
-        <div class="col-md-4 col-sm-12 show-item">
-          <span class="material-icons md-36">
-            local_bar
-            </span>
-          <h3>Aniversários e Festas particulares</h3>
-          <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
-           </p>
-        </div>
-        
-
       </div>
       </div>
    </section>
 
-    <section class="container container-fluid midia-foto"><!-- FOTOS-->
-        <h2>Fotos e Vídeos</h2>
-              <div class="gallery-container">
-                <div class="gallery-item" data-index="1">
-                    <img src="img/gallery1.png">
-                </div>
-                <div class="gallery-item" data-index="2">
-                    <img src="img/gallery2.png">
-                </div>
-                <div class="gallery-item" data-index="3">
-                    <img src="img/gallery3.png">
-                </div>
-                <div class="gallery-item" data-index="4">
-                    <img src="img/gallery4.jpg">
-                </div>
-              
-                <div class="gallery-item" data-index="5">
-                    <img src="img/gallery6.png">
-                </div>
-                <div class="gallery-item" data-index="6">
-                  <img src="img/gallery7.png">
-            </div>
-          
-             </div>
-             
+    <section class="container container-fluid midia-foto" id="midia"><!-- FOTOS-->
+        <h2>FOTOS E VÍDEOS</h2>
+                <div class="gallery-container">
+                      <div class="gallery-item" data-index="1">
+                          <img src="img/gallery1.png">
+                      </div>
+                      <div class="gallery-item" data-index="2">
+                          <img src="img/gallery2.png">
+                      </div>
+                      <div class="gallery-item" data-index="3">
+                          <img src="img/gallery3.png">
+                      </div>
+                      <div class="gallery-item" data-index="4">
+                          <img src="img/gallery4.jpg">
+                      </div>
+                    
+                      <div class="gallery-item" data-index="5">
+                          <img src="img/gallery6.png">
+                      </div>
+                      <div class="gallery-item" data-index="6">
+                        <img src="img/gallery7.png">
+                  </div>
+              </div>        
     </section>
 
   <section class="container">
     <!--Carousel Wrapper--> 
-<div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
   <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
-    <li data-target="#video-carousel-example" data-slide-to="1"></li>
-    <li data-target="#video-carousel-example" data-slide-to="2"></li>
-  </ol>
+        <ol class="carousel-indicators">
+          <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+          <li data-target="#video-carousel-example" data-slide-to="1"></li>
+          <li data-target="#video-carousel-example" data-slide-to="2"></li>
+        </ol>
   <!--/.Indicators-->
   <!--Slides-->
   <div class="carousel-inner" role="listbox">
@@ -205,42 +203,42 @@
 
     </section>
 
-    <section class="testimonials"> <!--TESTIMONIALS-->
+    <section class="testimonials" id="clientes"> <!--TESTIMONIALS-->
       <div class="container container-fluid">
-        <h2 class="depoimentos">What they’ve said</h2>
-        <div class="testimonials-box row">
-          <div class="testi-item col-md-4 col-sm-12">
-            <img src="img/avatar-1.png" alt="" class="mr-auto ml-auto">
-            <h4>Anisha Li</h4>
-            <p>“Manage has supercharged our team’s workflow. The ability to maintain 
-              visibility on larger milestones at all times keeps everyone motivated.”</p>
-          </div>
-          <div class="testi-item col-md-4 col-sm-12">
-            <img src="img/avatar-2.png" alt="" class="mr-auto ml-auto">
-            <h4>Ali Bravo</h4>
-            <p>  “We have been able to cancel so many other subscriptions since using 
-              Manage. There is no more cross-channel confusion and everyone is much 
-              more focused.”</p>
-          </div>
-          <div class="testi-item col-md-4 col-sm-12">
-            <img src="img/avatar-3.png" alt="" class="mr-auto ml-auto">
-            <h4>Richard Watts</h4>
-            <p>“Manage allows us to provide structure and process. It keeps us organized 
-              and focused. I can’t stop recommending them to everyone I talk to!”
-            </p>
-          </div>
-        </div>
+        <h2 class="depoimentos">CLIENTES</h2>
+            <div class="testimonials-box row">
+                <div class="testi-item col-md-4 col-sm-12">
+                    <img src="img/avatar-1.png" alt="" class="mr-auto ml-auto">
+                    <h4>CACILDS </h4>
+                    <p>“Manage has supercharged our team’s workflow. The ability to maintain 
+                      visibility on larger milestones at all times keeps everyone motivated.”</p>
+                </div>
+                <div class="testi-item col-md-4 col-sm-12">
+                    <img src="img/avatar-2.png" alt="" class="mr-auto ml-auto">
+                    <h4>CACILDS</h4>
+                    <p>  “We have been able to cancel so many other subscriptions since using 
+                      Manage. There is no more cross-channel confusion and everyone is much 
+                      more focused.”</p>
+                </div>
+                <div class="testi-item col-md-4 col-sm-12">
+                    <img src="img/avatar-3.png" alt="" class="mr-auto ml-auto">
+                    <h4> CACILDS</h4>
+                    <p>“Manage allows us to provide structure and process. It keeps us organized 
+                      and focused. I can’t stop recommending them to everyone I talk to!”
+                    </p>
+                </div>
+            </div>
       </div>
     </section><!--FIM-->
 
-      <section class="contato">
+      <section class="contato" id="contato">
         <div class="container container-fluid">
           <div class="row">
           <div class="col-md-6 col-sm-12 form">
-            <h2 class="mr-auto ml-auto">Entre agora em contato <br>conosco</h2>
+            <h2 class="text-white">ENTRE EM CONTATO</h2>
            
               <form action="#" class="form-contact" method="post" tabindex="1">
-                <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+                <input type="text" class="form-contact-input input" name="nome" placeholder="Nome" required />
                 <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
                 <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />
                 <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
@@ -250,17 +248,28 @@
             </div>
          
 
-          <div class="col-md-6 col-sm-12 mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14691.6953716693!2d-43.25728666986549!3d-22.9898278095128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd427adbbdaeb%3A0x4cf95af6dc0096b9!2sRocinha%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1591815559013!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <div class="col-md-6 col-sm-12 ContatoDados">
+                <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
+            <p>3245-8745<br>
+                3245-8745<br>
+                3245-8745 <br>
+              <br>
+            exemploemail@gmail.com<br>
+            exemploemail@gmail.com</p>
+                <ul>
+                  <li><a  href="#"><img src="img/icon-facebook.svg"></a></li>
+                  <li><a  href="#"></a><img src="img/icon-youtube.svg"></li>
+                  <li><a  href="#"></a><img src="img/icon-instagram.svg"></li>
+                </ul>
           </div>
         </div>
         </div>
       </section>
-    
-
-
+  
   </main>
   </body>
+
+  
   <script>
     $(".tab").click(function(){
     $(".tabs-bar").find(".tab-active").removeClass("tab-active");
