@@ -6,74 +6,63 @@ ul li{
     list-style-type: none;
 }
 
-body{
-  font-family: 'Be Vietnam', sans-serif;
-}
-body h1,h2,h3,h4,p{
-  font-family: 'Be Vietnam', sans-serif;
-}
-
 body p{
   font-size: 14px;
   color: #424242;
-  font-weight:300;
+  font-weight:400;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body h1,h2,h3,h4{
   color:#DAB35F;
   font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
+
+/*NAV*/
 nav ul li a {
     color:#DAB35F;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Be Vietnam', sans-serif;
+    font-size:12px;
+    font-weight:600;
+    font-family: 'Open Sans', sans-serif;
+}
+NAV a:hover{
+  color: #f44336;
+}
+nav {
+  padding:20px !important;
 }
 
-nav{
-    background-color:transparent;
-    margin-top:-20px;
-   
-}
-
-.navbar-brand >img{
+.navbar-brand >img {
     height:120px;
     width: 200px;
 }
 
-.myButton {
-	background-color:#DAB35F;
-	border-radius:35px;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:12px;
-  width: 135px;
-  height:35px;
-  text-align: center;
-  padding-top:8px;
-  font-weight: 700;
-}
-.myButton:hover {
-  background-color:#f44336;
+.Btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font: size 12px;
+  background: #DAB35F;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
-  color:#fafafa;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-.myButton >a{
-  text-decoration:none;
 }
 
-        
+.Btn:hover {
+  background: #f44336;
+  text-decoration: none;
+  color:#ffffff;
+}
+
+
+   /*PARALLAX*/     
 .slider { 
-    background-image: url("img/home.png") ;
+    background-image: url("../img/home.png") ;
     background-position:center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
     background-size:  cover;
-    margin-top:-150px;
     padding: 25vh 10%;
     min-height: 100vh;
     width: 99.7vw;
@@ -81,16 +70,20 @@ nav{
     transform-style: inherit;
     text-align: center;
 }
+
 .slider-content >h1{
   color:#DAB35F;
   font-weight: 700;
   font-size:40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .slider-content >p{
-  font-size:18px;
+  font-size:16px;
   color:#fafafa;
   font-weight:300;
+  text-align: center;
 }
 
 .slider-content{
@@ -100,8 +93,7 @@ nav{
 
 }
  
-/*Biografia*/
-
+/*BIOGRAFIA*/
 .bio-img >img{
     max-width: 400px;
     max-height:700px;
@@ -120,28 +112,35 @@ nav{
   padding-bottom: 50px;
 }
 
-main {
-  background-image: url(img/bg-shape.svg);
-  background-repeat:no-repeat;
-  background-position: left -270px top -250px;
+.bio-text >h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
-/*Call-to*/
 
+/*CTO*/
 .bg-cto{
-  background-image: url("img/bg-cto.png") ;
+  background-image: url("../img/bg-cto.png") ;
   background-position:center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size:  cover;
 }
+
 .box-cto{
   margin:50px;
-  padding: 50px;
+  padding:60px;
   text-align: center;
 }
+.box-cto >P{
+  font-size: 16px;
+}
+.box-cto >h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
 
-/*Shows*/
+/*SHOWS*/
 .show-box{
   text-align: center;
   margin: 50px;
@@ -149,13 +148,16 @@ main {
 }
 
 .show-item >h3{
-  font-size: 18px;
-  margin: 10px;
+  font-size:16px;
+  margin:20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
 }
 
-.show-item{
+.show-item {
  padding: 10px;
 }
+
 .material-icons{
   font-size: 40px !important;
   color:#fafafa;
@@ -164,8 +166,7 @@ main {
   border-radius: 50%;
 }
 
-  /*Fotos*/
-
+  /*FOTOS*/
   .midia-foto{
     margin: 50px;
   }
@@ -173,6 +174,8 @@ main {
   .midia-foto >h2{
     margin: 30px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
   }
   .gallery-container {
     display: flex;
@@ -270,7 +273,7 @@ main {
     }
 }
 
-/*Vídeos*/
+/*VIDEOS*/
 .swiper-container {
   width: 100%;
   height: 300px;
@@ -322,12 +325,15 @@ pointer-events: none;
 }
 
 
-/*Depoimentos*/
-
+/*DEPOIMENTOS*/
 .testimonials{
     margin:80px;
     padding:80px;
     text-align: center;
+}
+.depoimentos{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 .depoimentos{
   margin-bottom:60px;
@@ -335,22 +341,24 @@ pointer-events: none;
 
 .testi-item >h4{
   margin:20px auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 .testi-item >img{
   width:70px;
   height:70px;
 }
-/*Form*/
 
+/*FORM*/
 .form-contact {
   width: 100%;
-  font-family: "Arial", Times, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .form-contact-input {
   width: 100%;
-  color: #292929;
+  color:grey;
   font-size: 18px;
   background-color: #E9E9E9;
   border: 1px solid #E9E9E9;
@@ -359,45 +367,48 @@ pointer-events: none;
   border-radius: 5px;
   height: 40px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
   text-indent: 20px;
 }
 
+
+
 .form-contact-textarea {
   width: 100%;
-  color: #292929;
+  color: grey;
   font-size: 18px;
   background-color: #E9E9E9;
-  border: 1px solid #E9E9E9;
+  border: 1px solid #ffffff;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   height: 200px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ffffff;;
+  border-left: 1px solid #ffffff;;
   text-indent: 20px;
   padding-top: 16px;
   padding-left: 0;
   padding-right: 0;
-  font-family: "Arial", Times, serif;
+  font-family: 'Open Sans', sans-serif;
 }
+  
 
 .form-contact-button {
   width: 100%;
-  font-size: 18px;
+  font-size: 14px;
   border-radius: 4px;
   color: #fff;
   height: 40px;
   opacity: .8;
   margin-bottom: 20px;
   cursor: pointer;
-  background: #B22222;
+  background: #f44336;;
   display: block;
   border: none;
-  border-bottom: 1px solid #500707;
-  border-right: 1px solid #500707;
+  border-bottom: 1px solid #f44336;
+  border-right: 1px solid #f44336;;
   transition: 1s;
 }
 
@@ -406,19 +417,38 @@ pointer-events: none;
 }
 
 .contato{
-  background-color: #DAB35F;
-  padding: 80px;
+  background-color:#DAB35F;
+  padding:100px;
   align-items: center;
+  text-align: center;
   
+}
+.contato ul li {
+  display: inline;
+
+}
+
+.contato li+li{
+  margin-left:15px;
+}
+.contato ul{
+  margin:20px;
 }
 
 .form >h2{
   color:#fafafa;
   text-align: center;
-  margin:20px auto;
+  margin-top: -20px;
+  margin-bottom:30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
-iframe {
-  padding: 20px;
-  margin-top:80px;
+.ContatoDados{
+  padding:100px ;
 }
+.ContatoDados >p{
+  color:#fafafa;
+  font-size:14px;
+}
+
