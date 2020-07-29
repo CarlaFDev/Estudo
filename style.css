@@ -446,6 +446,7 @@ pointer-events: none;
 
 .ContatoDados{
   padding:100px ;
+  text-align:left;
 }
 .ContatoDados >p{
   color:#fafafa;
