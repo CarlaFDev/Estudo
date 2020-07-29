@@ -418,6 +418,7 @@ pointer-events: none;
 
 .contato{
   background-color:#DAB35F;
+  padding-bottom:60px !important;
   padding:100px;
   align-items: center;
   text-align: center;
