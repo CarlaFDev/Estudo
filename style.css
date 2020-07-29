@@ -449,6 +449,12 @@ pointer-events: none;
   text-align:center;
 }
 
+.material-icons {
+    color:#fff;
+    border: 1px solid #fff;
+    border-radius:50%;
+}
+
 .ContatoDados >p{
   color:#fafafa;
   font-size:14px;
