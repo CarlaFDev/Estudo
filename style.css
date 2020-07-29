@@ -58,7 +58,7 @@ nav {
 
    /*PARALLAX*/     
 .slider { 
-    background-image: url("../img/home.png") ;
+    background-image: url("img/home.png") ;
     background-position:center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
@@ -120,7 +120,7 @@ nav {
 
 /*CTO*/
 .bg-cto{
-  background-image: url("../img/bg-cto.png") ;
+  background-image: url("img/bg-cto.png") ;
   background-position:center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
