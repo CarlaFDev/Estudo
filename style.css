@@ -435,29 +435,32 @@ pointer-events: none;
   margin:20px;
 }
 
+
 .form >h2{
   color:#fafafa;
   text-align: center;
-  margin-top: -20px;
+  margin-top:-40px;
   margin-bottom:30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
-
 .ContatoDados{
-  padding:100px ;
-  text-align:center;
-}
-
-.material-icons {
-    color:#fff;
-    border: 1px solid #fff;
-    border-radius:50%;
-    font-size:14px;
+  padding:100px;
 }
 
 .ContatoDados >p{
   color:#fafafa;
   font-size:14px;
+  margin-top: -30px;
+  margin-bottom:30px;
+}
+
+.ContatoDados .material-icons {
+  color:#fff;
+  border: 1px solid #fff;
+  border-radius:50%;
+  font-size:18px !important;
+  padding:10px;
+  margin-bottom:14px;
 }
 
