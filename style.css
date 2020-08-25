@@ -184,7 +184,7 @@ nav {
 
 /*CTO*/
 .bg-cto{
-  background-image: url("../img/cto_bg.png") ;
+  background-image: url("cto_bg.png") ;
   background-position:center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -541,7 +541,7 @@ pointer-events: none;
 }
 
 .contato{
-  background-image: url("../img/cto_bg.png") ;
+  background-image: url("cto_bg.png") ;
   background-repeat: no-repeat;
   background-size: cover;
   padding:80px;
